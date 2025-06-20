@@ -87,7 +87,7 @@ Sudah disetting agar `node_modules`, `test-results`, dan file auto-generated lai
 
 ## 💡 Author
 
-**Putra Yudho**
+**Yudhooooooo**
 QA Engineer Enthusiast · Open to Collaborations
 [GitHub](https://github.com/YTP27) | [LinkedIn](https://www.linkedin.com/in/yudho-tri-putranto-598ab6221/)
 
