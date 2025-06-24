@@ -4,7 +4,7 @@ test('login dengan username & password salah', async ({ page }) => {
   await page.goto('https://opensource-demo.orangehrmlive.com/');
 
   // isi username & password yang salah
-  await page.getByPlaceholder('Username').fill('yudhoyudho');
+  await page.getByPlaceholder('Username').fill('oduyzoudyz');
   await page.getByPlaceholder('Password').fill('admin123');
 
   // klik login
