@@ -11,15 +11,23 @@ This repository contains both **manual testing** and **automation testing** proj
 ├── 📂 manual-test
 │   ├── Admin Test Case - OrangeHRM.xlsx
 │   ├── Buzz Test Case - OrangeHRM.xlsx
-│   ├── ...
+│   ├── Leave Test Case - OrangeHRM.xlsx
+│   ├── My Info Test Case - OrangeHRM.xlsx
+│   ├── Recruitment Test Case - OrangeHRM.xlsx
+│   └── Time Test Case - OrangeHRM.xlsx
 ├── 📂 automation-test
 │   └── 📂 playwright
 │       ├── playwright.config.js
 │       ├── package.json
 │       └── 📂 tests
 │           ├── 📂 login
+│           ├── 📂 admin
 │           ├── 📂 dashboard
-│           └── 📂 adminpage
+│           ├── 📂 leave
+│           ├── 📂 myinfo
+│           ├── 📂 pim
+│           ├── 📂 recruitment
+│           └── 📂 time
 └── .gitignore
 ```
 
@@ -31,8 +39,11 @@ Berisi dokumen test case dalam format Excel yang mencakup berbagai fitur pada Or
 
 * Login
 * Dashboard
-* Admin Page
-* Leave, Recruitment, My Info, dll
+* Admin
+* Leave
+* Recruitment
+* My Info
+* Time
 
 Setiap file mencakup:
 
@@ -51,6 +62,7 @@ Dibuat menggunakan [**Playwright**](https://playwright.dev/) dengan JavaScript.
 
 * **Positive Test Cases**
 * **Negative Test Cases**
+* Dikelompokkan berdasarkan modul OrangeHRM
 
 ### 🛠 Tools & Tech:
 
@@ -65,10 +77,10 @@ npm install
 npx playwright test
 ```
 
-Jalankan test tertentu:
+Menjalankan test tertentu:
 
 ```bash
-npx playwright test -g "TC_ADMIN_N03"
+npx playwright test -g "TC_PD_010"
 ```
 
 Melihat hasil video/screenshot:
@@ -87,8 +99,8 @@ Sudah disetting agar `node_modules`, `test-results`, dan file auto-generated lai
 
 ## 💡 Author
 
-**Yudhooooooo**
-QA Engineer Enthusiast · Open to Collaborations
+**Yudhooooooo**  
+QA Engineer Enthusiast · Open to Collaborations  
 [GitHub](https://github.com/YTP27) | [LinkedIn](https://www.linkedin.com/in/yudho-tri-putranto-598ab6221/)
 
 ---
