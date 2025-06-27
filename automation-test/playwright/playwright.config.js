@@ -17,7 +17,7 @@ module.exports = defineConfig({
     video: 'retain-on-failure',
   },
   
-workers: 6,
+workers: 8,
 
   
 });
